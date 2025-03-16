@@ -1,0 +1,123 @@
+*{
+  font-family: sans-serif;
+}
+
+.banner{
+  background-image: url(image-slider-with-thumbnail1\ -\ Copy.jpeg);
+  background-position: center;
+  padding: 250px 0;
+  background-size: cover;
+}
+
+section h1{
+  color:rgb(178, 239, 12);
+  font-size:60px ;
+  letter-spacing: 3px;
+  font-family: "Poppins", sans-serif;
+  text-shadow: 0px 1px 0px blue,
+  0px 2px 0px rgb(240, 233, 233),
+  0px 3px 0px rgb(184, 16, 16),
+  0px 4px 0px rgb(196, 25, 25),
+  0px 5px 0px rgb(201, 7, 7),
+  0px 6px 0px rgb(42, 21, 177),
+  0px 7px 0px rgb(45, 12, 232),
+  0px 3px 0px rgb(184, 16, 16),
+  0px 4px 0px rgb(196, 25, 25),
+  0px 5px 0px rgb(201, 7, 7),
+  0px 6px 0px rgb(42, 21, 177),
+  0px 7px 0px rgb(45, 12, 232),
+  0px 2px 0px rgb(240, 233, 233),
+  0px 3px 0px rgb(184, 16, 16),
+  0px 4px 0px rgb(196, 25, 25),
+  0px 5px 0px rgb(201, 7, 7),
+  0px 6px 0px rgb(42, 21, 177),
+  0px 7px 0px rgb(45, 12, 232),
+  0px 3px 0px rgb(184, 16, 16),
+  0px 4px 0px rgb(196, 25, 25),
+  0px 5px 0px rgb(201, 7, 7),
+  0px 6px 0px rgb(42, 21, 177),
+  0px 7px 0px rgb(45, 12, 232);
+  text-shadow: #3bdf1a;
+  
+
+}
+.btn:hover{
+  background-color: navy;
+  box-shadow: 10px 10px 10px navy;
+  border: white 5px solid;
+}
+.para{
+  color: rgb(241, 240, 244);
+  font-weight: bold;
+}
+.paras{
+  
+  color: black !important;
+  font-weight: bold !important;
+}
+#navbarSupportedContent a{
+  font-weight: 800;
+  color: #3bdf1a;
+  background-color: black;
+
+}
+.navbar-brand{
+  font-weight: 800;
+  color: #3bdf1a;
+  background-color: black;
+
+}
+.navbar{
+background-color: black;
+animation: navbar 2s ease-in-out;
+}
+.nav-item:hover{
+  border-bottom: #3bdf1a solid 5px;
+}
+.card{
+  border: none !important;
+  box-shadow: 14px 20px 20px #4d4a4a;
+  inset: 4px 4px 10px;
+  overflow: hidden;
+  
+}
+.mdimage{
+  border: none;
+ 
+}
+
+.skills{
+  background-color:lightgrey;
+}
+.card:hover{
+  background-color:lavenderblush;
+
+}
+section h4{
+  color:rgb(201, 201, 50);
+  font-weight: 800;
+  background-color: black;
+  
+  
+}
+
+#contact{
+  background-attachment: fixed;
+  background-color:lightslategrey;
+}
+.contact-div{
+display: flex;
+justify-content: center;
+}
+.about-div{
+  margin-left: 34%;
+}
+@keyframes navbar{
+    0%{
+        transform:translateY(-100%) ;
+       
+      }
+      100%{
+        transform: translateY(30%);
+      }
+    }
