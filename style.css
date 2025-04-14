@@ -121,3 +121,32 @@ justify-content: center;
         transform: translateY(30%);
       }
     }
+
+    /* 🔸Responsive for mobile */
+@media screen and (max-width: 480px) {
+  .paras h1 {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+
+  .paras p {
+    font-size: 16px;
+  }
+}
+/* 🔸Responsive for mobile */
+@media screen and (max-width: 480px) {
+  .card {
+    box-shadow: 5px 8px 10px #aaa;
+    padding: 5px;
+    font-size: 14px;
+  }
+
+  .skills {
+    padding: 5px 5px;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+}
